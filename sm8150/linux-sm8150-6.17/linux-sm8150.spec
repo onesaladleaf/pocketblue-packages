@@ -1,13 +1,13 @@
 %undefine        _debugsource_packages
 %global soc      sm8150
-%global tag      v6.17.0-sm8150
-Version:         6.17.0
+%global tag      v7.0.0-sm8150
+Version:         7.0.0
 Release:         8.%{soc}%{?dist}
 ExclusiveArch:   aarch64
 Name:            kernel
 Summary:         mainline kernel for %{soc}
 License:         GPLv2
-URL:             https://gitlab.com/%{soc}-mainline/linux
+URL:             https://gitlab.postmarketos.org/soc/qualcomm-%{soc}/linux
 Source0:         %{url}/-/archive/%{tag}/linux-%{tag}.tar.gz
 Source1:         extra-%{soc}.config
 
