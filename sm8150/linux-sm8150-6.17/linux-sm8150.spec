@@ -9,6 +9,7 @@ Summary:         mainline kernel for %{soc}
 License:         GPLv2
 URL:             https://gitlab.postmarketos.org/soc/qualcomm-%{soc}/linux
 Source0:         %{url}/-/archive/%{tag}/linux-%{tag}.tar.gz
+Patch1:          https://github.com/gmankab/linux/commit/7c9356a8d05f658c15ea485937691f9ceca3fcb6.patch
 Source1:         extra-%{soc}.config
 
 Provides:        kernel               = %{version}-%{release}
