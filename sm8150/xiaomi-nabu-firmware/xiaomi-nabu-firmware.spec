@@ -1,6 +1,6 @@
 Name:           xiaomi-nabu-firmware
 Version:        1
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Firmware for xiaomi-nabu
 URL:            https://gitlab.postmarketos.org/panpanpanpan/nabu-firmware
 Source0:        %{url}/-/archive/%{version}/nabu-firmware-%{version}.tar.gz
